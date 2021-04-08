@@ -9,7 +9,7 @@ Repo contains:
 
 ## Installation
 
-1.Follow the installation instructions in repo [ares](https://github.com/thu-ml/ares/tree/main). Some installation guide:
+### Follow the installation instructions in repo [ares](https://github.com/thu-ml/ares/tree/main). Some installation guide:
 ``` shell
 git clone https://github.com/thu-ml/ares
 cd ares/
@@ -17,14 +17,15 @@ pip install -e .
 ```
 The `requirements.txt` includes its dependencies, you might want to change PyTorch's version as well as TensorFlow 1's version. TensorFlow 1.13 or later should work fine. As for python version, Python 3.5 or later should work fine.
 
-2. Installation of contest
+### Installation of contest
 Download `contest` folder from:
 ```shell
 git clone https://github.com/thu-ml/ares/tree/contest/contest
 ```
 Put the `contest` folder into the main folder of ARES. 
 
-3.Download Datasets & Model Checkpoints
+### Download Datasets & Model Checkpoints
+
 To download the CIFAR-10 dataset, please run:
 
 ``` shell
@@ -52,6 +53,7 @@ The `example/cifar10` directory and `example/imagenet` directories include wrapp
 python3 example/cifar10/resnet56.py
 ```
 (*note: please check the model name and path carefully, make sure the model download are exactly the same! You can check the model path on `example/cifar10` directory and `example/imagenet` directories.)
+
 (*To chnage the default model path, please run this code to change `ARES_RES_DIR` to the path you want to save all model and Data. Still make sure the path is correct!
 ```shell
 import os
@@ -62,7 +64,7 @@ print(A)
 ```
 )
 
-4. Quick Examples
+### Quick Examples
 
 ARES provides command line interface to run benchmarks. For example, to run distortion benchmark on ResNet56 model for CIFAR-10 dataset using CLI:
 
