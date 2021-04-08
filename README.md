@@ -76,4 +76,7 @@ This command would find the minimal adversarial distortion achieved using the MI
 
 ## How to use the code
 
+#### Replace the `__init.py__` in the folder `contest/numpy_attcker/` with the `__init.py__` you want to use. (PGD and MIM are supplied) 
+
+#### Use the test bench `CVPR2021_testbench.ipynb` to check the methods. The ouput will be saved in CSV format.
 
