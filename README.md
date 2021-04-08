@@ -1,7 +1,7 @@
 # cspUTS-CVPR2021
 
 ## Introduction
-This is a repo including the code and environment setup in CVPR 2021 compete in white box adversary attack. Our team got 63rd out of 1600 teams in this compete. The methods using PGD backbone and combine with the EOT and Auto Step Search.
+This is a non-commercial repo including the code and environment setup in CVPR 2021 compete in white box adversary attack. Our team got 63rd out of 1600 teams in this compete. The methods using PGD backbone and combine with the EOT and Auto Step Search.
 
 Repo contains:
 - Environments setup: the experiments environments are built on Colab. (GPU-16G)
@@ -74,17 +74,6 @@ python3 -m ares.benchmark.distortion_cli --method mim --dataset cifar10 --offset
 
 This command would find the minimal adversarial distortion achieved using the MIM attack with decay factor of 1.0 on the `example/cifar10/resnet56.py` model with L∞ distance and save the result to `mim.npy`.
 
+## How to use the code
 
-## Citation
 
-If you find ARES useful, you could cite our paper on benchmarking adversarial robustness using all models, all attacks & defenses supported in ARES. We provide a BibTeX entry of this paper below:
-
-```
-@inproceedings{dong2020benchmarking,
-  title={Benchmarking Adversarial Robustness on Image Classification},
-  author={Dong, Yinpeng and Fu, Qi-An and Yang, Xiao and Pang, Tianyu and Su, Hang and Xiao, Zihao and Zhu, Jun},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-  pages={321--331},
-  year={2020}
-}
-```
