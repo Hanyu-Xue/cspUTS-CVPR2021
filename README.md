@@ -9,7 +9,7 @@ Repo contains:
 
 ## Installation
 
-1.Follow the installation instructions in repo [area](https://github.com/thu-ml/ares/tree/main). Some installation guide:
+1.Follow the installation instructions in repo [ares](https://github.com/thu-ml/ares/tree/main). Some installation guide:
 ``` shell
 git clone https://github.com/thu-ml/ares
 cd ares/
